@@ -32,9 +32,6 @@ app.use('/api', braintreeRoutes)
 app.use('/api', orderRoutes)
 app.use('/api', bl)
 
-app.get('/',(req,res) => {
-    res.send('test');
-})
 
 const port = process.env.PORT || 8000
 
